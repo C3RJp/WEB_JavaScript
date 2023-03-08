@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">ver</p>
+
+<img id="myImage" src="3D1.gif" style="width:120px"><br>
+<button onclick="document.getElementById('myImage').src='3D2.gif'">left</button>
+<button onclick="document.getElementById('myImage').src='3D1.gif'">Right</button>
+<button type="button" onclick="document.getElementById('myImage').style.display='none'">Hide</button>
+<button type="button" onclick="document.getElementById('myImage').style.display='block'">Show</button>
+<script src="other.js"></script>
+<button type="button" onclick="myFunction()">mensaje</button>
+<button onclick="window.print()">Imprimir</button>
+<button type="button" onclick="suma()">cal</button>
+<br>
+<label for="nombre">nombre</label>
+<input id="nombre" type="text">
+<button onclick="bot()">Ingresar</button>
+
+<button onclick="izq()">new</button>
+
+</body>
+</html>
